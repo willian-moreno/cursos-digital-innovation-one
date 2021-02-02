@@ -44,18 +44,26 @@ Objetivos:
 
 ### **Comandos mais importantes**
 
-​     **git init** – Inicia o diretório na pasta;
+​    **git help (comando)** - Mostra informações sobre o comando informado;
 
-​     **git add** */nomedoarquivo - Dá início ao versionamento;
+​	**git init** – Inicia o diretório na pasta;
 
-​     **git commit** -m “mensagem” – Faz commit do repositório de forma local;
+​    **git add** */nomedoarquivo - Dá início ao versionamento;
 
-​     **git status** – mostra os status dos arquivos, para mostrar qualquer tipo de alteração;
+​    **git commit** -m “mensagem” – Faz commit do repositório de forma local;
 
-​     **git remote add origin (url disponibilizado pelo repositório no github)** – Aponta para o repositório remoto que receberá o commit;
+​    **git status** – Mostra os status dos arquivos, para mostrar qualquer tipo de alteração;
 
-​     **git remote -v** – Lista todas as origens cadastras;
+​	**git config --global --unset** user.email/user.nickname - Remove as configurações tanto de email, como de nome (que devem ser, por recomendação, iguais ao do github, não obrigatoriamente);
 
-​     **git push origin master** – Manda o commit local para o remoto;
+​	**git config** (**user.email** "email@email.com" ou **user.email** "email@email.com") - Configura o email e/ou o nome, que por recomendação devem ser iguais aos cadastrados no github;
 
- 
+​    **git remote add origin (url disponibilizado pelo repositório no github)** – Aponta para o repositório remoto que receberá o commit;
+
+​    git remote -v** – Lista todas as origens cadastras;
+
+​    **git push origin master** – Manda/Empurra o commit local para o remoto;
+
+​	**git pull origin master** - Puxa os commits/alterações feitas no repositório remoto;
+
+ 	
