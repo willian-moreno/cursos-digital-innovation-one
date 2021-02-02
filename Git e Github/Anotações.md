@@ -56,11 +56,11 @@ Objetivos:
 
 ​	**git config --global --unset** user.email/user.nickname - Remove as configurações tanto de email, como de nome (que devem ser, por recomendação, iguais ao do github, não obrigatoriamente);
 
-​	**git config** (**user.email** "email@email.com" ou **user.email** "email@email.com") - Configura o email e/ou o nome, que por recomendação devem ser iguais aos cadastrados no github;
+​	**git config** (**user.email** "email@email..." ou **user.nickname"name_login") - Configura o email e/ou o nome, que por recomendação devem ser iguais aos cadastrados no github;
 
 ​    **git remote add origin (url disponibilizado pelo repositório no github)** – Aponta para o repositório remoto que receberá o commit;
 
-​    git remote -v** – Lista todas as origens cadastras;
+​    **git remote -v** – Lista todas as origens cadastras;
 
 ​    **git push origin master** – Manda/Empurra o commit local para o remoto;
 
