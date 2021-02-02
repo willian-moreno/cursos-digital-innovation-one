@@ -66,4 +66,4 @@ Objetivos:
 
 ​	**git pull origin master** - Puxa os commits/alterações feitas no repositório remoto;
 
- 	
+​    **git clone (url disponibilizado pelo repositório no github)** - Clona o repositório armazenado no github. É necessário o URL do repositório para isso;
