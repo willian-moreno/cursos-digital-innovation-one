@@ -68,5 +68,7 @@ Objetivos:
 
 ​    **git clone (url disponibilizado pelo repositório no github)** - Clona o repositório armazenado no github. É necessário o URL do repositório para isso;
 
-​	**git checkout -b nome_branche** - Cria um novo branche, para que os arquivos sejam adicionados em outro local. Um exemplo é a criação de um branche para desenvolvimento (desenv), enquanto o master (que é um branche padrão) fica para produção, assegurando que o código commitado não quebre o projeto.
+​	**git checkout -b nome_branche** - Cria um novo branche, para que os arquivos sejam adicionados em outro local. Um exemplo é a criação de um branche para desenvolvimento (desenv), enquanto o master (que é um branche padrão) fica para produção, assegurando que o código commitado não quebre o projeto;
+
+​	**git checkout nome_branche_existente** - Muda para uma branch existente, por exemplo, git checkout desenv, muda para a branch desenv;
 
