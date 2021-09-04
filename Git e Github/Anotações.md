@@ -56,9 +56,11 @@ Objetivos:
 
 ​		O que faz: Inicia o diretório na pasta;
 
-​    **git add** */nomedoarquivo
+​    **git add *** ou **git add diretório/arquivo**
 
 ​		O que faz: Dá início ao versionamento;
+
+​		Observação: O comando git add * inicializa o versionamento para TODOS os arquivos alterados. Já o *git add diretório/arquivo*, onde ‘diretório/arquivo’ é o caminho do arquivo modificado, inicializa o versionamento para arquivos específicos.
 
 ​	**git rm diretório/arquivo**
 
