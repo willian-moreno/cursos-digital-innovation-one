@@ -56,7 +56,7 @@ Objetivos:
 
 ​		O que faz: Inicia o diretório na pasta;
 
-​    **git add * ** ou **git add diretório/arquivo**
+​    **git add** *****  ou **git add diretório/arquivo**
 
 ​		O que faz: Dá início ao versionamento;
 
